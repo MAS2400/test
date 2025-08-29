@@ -6,6 +6,7 @@ DEFAULTS = {
     "market_name": None,
     "low_stock_limit": 5,
     "csv_path": os.path.join(ROOT, "inventory.csv"),
+    "log_path": os.path.join(ROOT, "log.csv"),
 }
 
 class Config:
